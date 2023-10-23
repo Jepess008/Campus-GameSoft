@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.list-games{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ficha{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin-top: 50px;
+    border: solid 1px;
+    padding: 5px;
+    border-radius: 10px;
+    height: 600px;
+}
+
+.ficha:hover{
+    background: linear-gradient(#0a0a0a,#d4a413 );
+    transform: scale(1.03);
+    font-weight: bold;
+    font-size: large;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+img:hover{
+    transform: scale(1.03);
+}
+
+h4{
+    margin: 0px;
+    max-width: 8ch;
+    text-align: center;
+    
+}
+
+p{
+    font-weight: 500;
+}
+
+.btn-compra{
+    border-radius: 5px;
+    padding: 10px;
+    font-size: large;
+    font-weight: 500;
+    background:linear-gradient(#0a0a0a,#d4a413);
+    border-color: #0a0a0a;
+    width: 120px;
+
+}
+
+.btn-compra:hover{
+    transform: scale(1.03);
+}
+
+.videoJuegos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.compras{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+input{
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+select{
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.cotizar{
+    width: 200px;
+    background-color: #0d6efd;
+    color: #fff;
+    border-radius: 5px;
+    border-color: #0d6efd;
+    padding: 5px;
+}
+
+.cerrar4{
+    width: 200px;
+    background-color: #0d6efd;
+    color: #fff;
+    border-radius: 5px;
+    border-color: #0d6efd;
+    padding: 5px;
+}
+
+.botones-cotizar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.comprar{
+    display: flex;
+    justify-content: center;
+}
+.btn-comprar{
+    width: 200px;
+    background-color: #0d6efd;
+    color: #fff;
+    border-radius: 5px;
+    border-color: #0d6efd;
+    padding: 5px;
+}
