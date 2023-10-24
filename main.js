@@ -176,10 +176,10 @@ function ModificarUsuario() {
         // Validar la opción seleccionada
         if (opcion >= '1' && opcion <= '5') {
             // Solicitar el nuevo valor para el campo seleccionado
-            let nuevoValor = prompt(`Ingrese el nuevo valor para ${obtenerNombreCampo(opcion)}:`);
+            let nuevoValor = prompt(`Ingrese el nuevo valor para ${obtenerNombreCampo1(opcion)}:`);
 
             // Modificar el campo correspondiente del usuario
-            usuarios[index][obtenerCampoPorOpcion(opcion)] = nuevoValor;
+            usuarios[index][obtenerCampoPorOpcion1(opcion)] = nuevoValor;
 
             // Actualizar la interfaz y guardar en el localStorage
             ActualizarUsuario();
@@ -195,7 +195,7 @@ function ModificarUsuario() {
 }
 
     // Función para obtener el nombre del campo a partir de la opción del menú
-function obtenerNombreCampo(opcion) {
+function obtenerNombreCampo1(opcion) {
     switch (opcion) {
         case '1': return 'Nombre';
         case '2': return 'Apellido';
@@ -207,7 +207,7 @@ function obtenerNombreCampo(opcion) {
 }
 
     // Función para obtener el nombre del campo a partir de la opción del menú
-function obtenerCampoPorOpcion(opcion) {
+function obtenerCampoPorOpcion1(opcion) {
     switch (opcion) {
         case '1': return 'name';
         case '2': return 'lastname';
